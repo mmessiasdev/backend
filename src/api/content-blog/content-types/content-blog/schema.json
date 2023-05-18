@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "content_blogs",
+  "info": {
+    "singularName": "content-blog",
+    "pluralName": "content-blogs",
+    "displayName": "ContentBlog",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "supertitle": {
+      "type": "string"
+    },
+    "superdesc": {
+      "type": "text"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "subdesc": {
+      "type": "text"
+    },
+    "language": {
+      "type": "string"
+    },
+    "illustration": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "markdown": {
+      "type": "text"
+    },
+    "innerHtml": {
+      "type": "boolean",
+      "default": true
+    },
+    "reference": {
+      "type": "string"
+    }
+  }
+}
