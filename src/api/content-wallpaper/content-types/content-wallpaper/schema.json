@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "content_wallpapers",
+  "info": {
+    "singularName": "content-wallpaper",
+    "pluralName": "content-wallpapers",
+    "displayName": "ContentWallpaper",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "wallpaper": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
